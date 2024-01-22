@@ -52,5 +52,8 @@
     "lint": "eslint --ignore-pattern node_modules --quiet .",
     "start:webhook": "node webhook_server.js",
     "tsc": "NODE_OPTIONS=--max_old_space_size=12000 tsc --noEmit"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
   }
 }
